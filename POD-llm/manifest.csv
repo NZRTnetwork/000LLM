@@ -1,0 +1,9 @@
+filename,slug,title,type,duration_sec,size_bytes,srt,state,youtube_id,video_rendered,video_file
+agent-personas-animated.mp4,agent-personas-animated,Agent Personas,mp4,307.8,7692507,C:\RPO-SAI\SYS\PLA\WIN\FRA\FAI\ORG\RPO-NZT\OPS\RPO-agt\WFL\TSK-pod\pod-output\rough_test\agent-personas.srt,pending,,yes,agent-personas-animated.mp4
+agent-personas.mp3,agent-personas,Agent Personas,mp3,307.8,1846944,C:\RPO-SAI\SYS\PLA\WIN\FRA\FAI\ORG\RPO-NZT\OPS\RPO-agt\WFL\TSK-pod\pod-output\rough_test\agent-personas.srt,pending,,yes,MP4/agent-personas.mp4
+llm-overview.mp3,llm-overview,Llm Overview,mp3,298.3,1789632,,pending,,yes,MP4/llm-overview.mp4
+llm-wiki-schema.mp3,llm-wiki-schema,Llm Wiki Schema,mp3,350.2,2100960,,pending,,yes,MP4/llm-wiki-schema.mp4
+models-providers.mp3,models-providers,Models Providers,mp3,283.2,1699056,,pending,,yes,MP4/models-providers.mp4
+prompt-engineering.mp3,prompt-engineering,Prompt Engineering,mp3,294.7,1768032,,pending,,yes,MP4/prompt-engineering.mp4
+tokens-context.mp3,tokens-context,Tokens Context,mp3,286.5,1718784,,pending,,yes,MP4/tokens-context.mp4
+tool-use-agents.mp3,tool-use-agents,Tool Use Agents,mp3,334.3,2005920,,pending,,yes,MP4/tool-use-agents.mp4

@@ -1,2 +1,12 @@
+﻿
+# Podcast media - YouTube hosts these; GitHub keeps manifest + captions only
+POD-llm/*.mp3
+POD-llm/*.mp4
+POD-llm/MP3/
+POD-llm/IMG/
+POD-llm/MP4/
+!POD-llm/manifest.csv
+!POD-llm/*.srt
+
 __pycache__/
 *.pyc

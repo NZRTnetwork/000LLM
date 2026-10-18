@@ -1,4 +1,4 @@
-﻿# 000CLA — Claude Code Multi-Agent Setup
+﻿# 000LLM — Claude Code Multi-Agent Setup
 
 Pattern for running multiple scoped AI agents in Claude Code — role codes, tier system, access boundaries, CLAUDE.md config templates.
 
