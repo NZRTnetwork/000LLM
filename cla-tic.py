@@ -34,7 +34,7 @@ SYSTEM_TAGS = {
     "aba": 408, "aca": 515, "adm": 409, "aga": 400, "ana": 535, "agt": 334, "api": 51,
     "app": 398, "aut": 401, "bch": 383, "bid": 501, "bkt": 502, "bnz": 360, "bra": 410,
     "bun": 361, "bup": 411, "bus": 397, "cal": 402, "cas": 412,
-    "cat": 413, "cfg": 414, "chr": 415, "cla": 384, "cod": 416,
+    "cat": 413, "cbr": 536, "cfg": 414, "chr": 415, "cla": 384, "cod": 416,
     "com": 417, "con": 418, "cpl": 76, "cpt": 514, "cre": 490, "dai": 419,
     "dan": 420, "dat": 503,
     "dem": 421, "doc": 422, "dol": 52, "dve": 423, "ema": 424,
