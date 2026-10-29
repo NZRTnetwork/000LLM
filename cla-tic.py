@@ -47,15 +47,15 @@ SYSTEM_TAGS = {
     "kbs": 439, "llm": 333, "lms": 519, "mai": 77, "med": 440, "mig": 441,
     "mnu": 442, "mp3": 443, "mp4": 444, "mth": 445, "mtm": 487,
     "ncl": 55, "ncs": 56, "not": 446, "nzt": 486, "obs": 281, "oma": 532,
-    "ops": 447, "orc": 404, "org": 448, "ori": 538, "osi": 517, "pal": 362, "pam": 449,
+    "ops": 447, "orc": 404, "org": 448, "ori": 538, "osi": 517, "pac": 587, "pal": 362, "pam": 449,
     "pat": 450, "pdf": 451, "pei": 508, "pgc": 452, "pgt": 453, "pjs": 399,
     "pla": 454, "pln": 455, "pod": 394, "pol": 456, "por": 457,
     "pre": 458, "pro": 459, "psc": 460, "pst": 461, "qtr": 504, "ref": 462,
     "rev": 463, "rnd": 509, "rpo": 396, "rpt": 464, "rsk": 505, "sai": 465, "sch": 405,
-    "scr": 204, "sdr": 466, "sec": 489, "sel": 506, "seq": 406, "ses": 467,
+    "scr": 204, "sdr": 466, "sec": 489, "sel": 506, "seq": 406, "ses": 467, "sip": 586,
     "sli": 468, "str": 469, "sun": 470, "svc": 471, "sys": 472,
     "tag": 473, "tai": 492, "tdv": 499, "tic": 474, "tog": 205, "tol": 475, "tra": 507,
-    "tri": 407, "txo": 526,
+    "trg": 407, "tri": 585, "txo": 526,
     "tsk": 476, "typ": 477, "upd": 525, "vis": 584, "vlt": 478, "wbh": 583, "web": 479, "wik": 480,
     "win": 335, "wor": 57, "wps": 481, "wsk": 493, "wts": 483, "x40": 482,
     "ytb": 395,
@@ -111,7 +111,8 @@ def main():
     parser.add_argument("--dry-run", action="store_true", help="Print payload without creating")
     args = parser.parse_args()
 
-    api_key = os.environ.get("DOLIBARR_API_KEY") or os.environ.get("DOL_API_KEY")
+    api_key = (os.environ.get("DOLIBARR_API_KEY") or os.environ.get("DOL_API_KEY")
+               or __import__("dotenv").dotenv_values(r"C:\RPO-SAI\SYS\PLA\WIN\FRA\FAI\ORG\RPO-NZT\OPS\RPO-agt\.env").get("DOLIBARR_API_KEY"))
     if not api_key:
         print("Error: set DOLIBARR_API_KEY env var", file=sys.stderr)
         sys.exit(1)
